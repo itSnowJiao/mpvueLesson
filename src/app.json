@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/question/main",
+    "pages/learn/main",
+    "pages/lesson/main",
+    "pages/user/main",
+    "pages/myLesson/main",
+    "pages/lookLesson/main",
+    "pages/webview/main",
+    "pages/aboutUs/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "课程管理",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#959394",
+    "selectedColor": "#17abe3",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/learn/main",
+        "text": "学习",
+        "iconPath": "/static/imgs/xue.jpg",
+        "selectedIconPath": "/static/imgs/xue_s.jpg"
+      },
+      {
+        "pagePath": "pages/lesson/main",
+        "text": "课程",
+        "iconPath": "/static/imgs/ke.jpg",
+        "selectedIconPath": "/static/imgs/ke_s.jpg"
+      },
+      {
+        "pagePath": "pages/user/main",
+        "text": "我的",
+        "iconPath": "/static/imgs/me.jpg",
+        "selectedIconPath": "/static/imgs/me_s.jpg"
+      }
+    ]
+  }
+}
